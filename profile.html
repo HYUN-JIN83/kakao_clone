@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
     <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="top-header top-header-transparent">
         <div class="header_top">
             <div class="header_column">
                 <i class="fa fa-plane"></i>
@@ -39,24 +40,29 @@
     </header>
     <main class="profile">
         <header class="profile_header">
-            <img src="images/3.jpg" alt="">
-            <h3 class="profile_header-title">JISOO</h3>
+            <div class="profile_header-container">
+                <img src="images/3.jpg" alt="">
+                <h3 class="profile_header-title">JISOO</h3>
+            </div>    
         </header>
-        <input type="text" placeholder="jschoi@abc.com">
-        <div class="profile_actions">
-            <div class="profile_action">
-                <span class="profile_action-circle">
-                    <i class="fa fa-comment fa-2x"></i>
-                </span>
-                <span class="profile_action-title">My Chatroom</span>
-            </div>
-            <div class="profile_action">
-                <span class="profile_action-circle">
-                    <i class="fa fa-pencil fa-2x"></i>
-                </span>
-                <span class="profile_action-title">Edit</span>
+        <div class="profile_container">
+            <input type="text" placeholder="jschoi@abc.com">
+            <div class="profile_actions">
+                <div class="profile_action">
+                    <span class="profile_action-circle">
+                        <i class="fa fa-comment fa-lg"></i>
+                    </span>
+                    <span class="profile_action-title">My Chatroom</span>
+                </div>
+                <div class="profile_action">
+                    <span class="profile_action-circle">
+                        <i class="fa fa-pencil fa-lg"></i>
+                    </span>
+                    <span class="profile_action-title">Edit</span>
+                </div>
             </div>
         </div>
+        
     </main>
 </body>
 </html>
